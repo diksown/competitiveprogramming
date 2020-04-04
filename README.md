@@ -8,10 +8,11 @@ Some implementations that I like to use in coding competitions.
 - [ ] Pollard Rho
 
 ### Data Structures
-- [ ] Segment Tree
+- [X] Segment Tree
 - [ ] Fenwick
 - [ ] DSU
 - [ ] Sparse Table
+- [ ] Li Chao Tree
 
 ### Graph
 - [ ] BFS
