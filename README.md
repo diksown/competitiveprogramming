@@ -24,7 +24,7 @@ Some implementations that I like to use in coding competitions.
 - [ ] Kosaraju
 
 ### String
-- [ ] Z
+- [X] Z
 - [ ] Trie
 - [ ] Hashing
 
