@@ -8,13 +8,13 @@ Some implementations that I like to use in coding competitions.
 - [ ] Matrix Exponentiaton
 - [ ] Pollard Rho
 
-## Data Structures
+### Data Structures
 - [ ] Segment Tree
 - [ ] Fenwick
 - [ ] DSU
 - [ ] Sparse Table
 
-## Graph
+### Graph
 - [ ] BFS
 - [ ] Dijkstra
 - [ ] Kruskal
@@ -24,14 +24,14 @@ Some implementations that I like to use in coding competitions.
 - [ ] TopoSort
 - [ ] Kosaraju
 
-## String
+### String
 - [ ] Z
 - [ ] Trie
 - [ ] Hashing
 
-## Geometry
+### Geometry
 - [ ] General Template(Point, Line, etc)
 - [ ] Convex Hull
 
-## Miscellaneous
+### Miscellaneous
 - [ ] Knapsack
