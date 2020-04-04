@@ -2,8 +2,7 @@
 Some implementations that I like to use in coding competitions.
 
 ### Math
-- [ ] Extended GCD
-- [ ] Modular Inverse
+- [ ] Extended GCD + Modular Inverse
 - [ ] Totient Function
 - [ ] Matrix Exponentiaton
 - [ ] Pollard Rho
@@ -21,7 +20,7 @@ Some implementations that I like to use in coding competitions.
 - [ ] Prim
 - [ ] Bridges
 - [ ] Articulation Points
-- [ ] TopoSort
+- [ ] Topological Sort
 - [ ] Kosaraju
 
 ### String
@@ -30,7 +29,7 @@ Some implementations that I like to use in coding competitions.
 - [ ] Hashing
 
 ### Geometry
-- [ ] General Template(Point, Line, etc)
+- [X] Struct Point
 - [ ] Convex Hull
 
 ### Miscellaneous
