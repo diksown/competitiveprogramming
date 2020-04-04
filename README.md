@@ -1,7 +1,7 @@
 # Competitive-Programming
 Some implementations that I like to use in coding competitions.
 
-## Math
+### Math
 - [ ] Extended GCD
 - [ ] Modular Inverse
 - [ ] Totient Function
