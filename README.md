@@ -3,7 +3,7 @@ Some implementations that I like to use in coding competitions.
 
 ### Math
 - [ ] Extended GCD + Modular Inverse
-- [ ] Totient Function
+- [X] Totient Function
 - [ ] Matrix Exponentiaton
 - [ ] Pollard Rho
 
@@ -15,8 +15,8 @@ Some implementations that I like to use in coding competitions.
 - [ ] Li Chao Tree
 
 ### Graph
-- [ ] BFS
-- [ ] Dijkstra
+- [X] BFS
+- [X] Dijkstra
 - [ ] Kruskal
 - [ ] Prim
 - [ ] Bridges
