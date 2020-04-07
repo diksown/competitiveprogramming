@@ -5,7 +5,9 @@ Some implementations that I like to use in coding competitions.
 - [ ] Extended GCD + Modular Inverse
 - [X] Totient Function
 - [ ] Matrix Exponentiaton
+- [ ] Miller-Rabin
 - [ ] Pollard Rho
+- [X] Mobius Function
 
 ### Data Structures
 - [X] Segment Tree
@@ -13,6 +15,7 @@ Some implementations that I like to use in coding competitions.
 - [ ] DSU
 - [ ] Sparse Table
 - [ ] Li Chao Tree
+- [ ] Matrix Exponenciation
 
 ### Graph
 - [X] BFS
