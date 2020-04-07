@@ -4,18 +4,21 @@ Some implementations that I like to use in coding competitions.
 ### Math
 - [ ] Extended GCD + Modular Inverse
 - [X] Totient Function
-- [ ] Matrix Exponentiaton
 - [ ] Miller-Rabin
 - [ ] Pollard Rho
-- [X] Mobius Function
+- [X] Möbius Function
+----------------------
+- [ ] Discrete Log
+- [ ] FFT
 
 ### Data Structures
 - [X] Segment Tree
 - [ ] Fenwick
 - [ ] DSU
 - [ ] Sparse Table
-- [ ] Li Chao Tree
 - [ ] Matrix Exponenciation
+-----------------------
+- [ ] Li Chao Tree
 
 ### Graph
 - [X] BFS
@@ -27,7 +30,11 @@ Some implementations that I like to use in coding competitions.
 - [ ] Topological Sort
 - [ ] Kosaraju
 - [X] Edmonds-Karp
- 
+- [ ] Lowest Common Ancestor
+---------------------------
+- [ ] Centroid Decomposition
+- [ ] 2SAT
+
 ### String
 - [X] Z
 - [ ] Trie
@@ -35,7 +42,11 @@ Some implementations that I like to use in coding competitions.
 
 ### Geometry
 - [X] Struct Point
+-----------------
 - [ ] Convex Hull
 
 ### Miscellaneous
+-----------------
 - [ ] Knapsack
+- [ ] Longest Increasing Subsequence
+- [ ] Kadane
