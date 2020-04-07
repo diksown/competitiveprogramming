@@ -23,7 +23,8 @@ Some implementations that I like to use in coding competitions.
 - [ ] Articulation Points
 - [ ] Topological Sort
 - [ ] Kosaraju
-
+- [X] Edmonds-Karp
+ 
 ### String
 - [X] Z
 - [ ] Trie
