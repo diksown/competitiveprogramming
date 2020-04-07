@@ -33,6 +33,7 @@ Some implementations that I like to use in coding competitions.
 - [ ] Lowest Common Ancestor
 ---------------------------
 - [ ] Centroid Decomposition
+- [ ] Heavy-Light Decomposition
 - [ ] 2SAT
 
 ### String
