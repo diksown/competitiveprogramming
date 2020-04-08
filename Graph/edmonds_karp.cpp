@@ -31,7 +31,6 @@ int maxflow(int s, int t){
 	int flow = 0, newflow;
 	vector<int> parent(MAX);
 	while(newflow = bfs(s, t, parent)){
-		cout << newflow << endl;
 		flow += newflow;
 		int cur = t;
 		while(cur != s){
