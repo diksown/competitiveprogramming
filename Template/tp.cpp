@@ -1,4 +1,4 @@
-//WA => CARO
+//WA => CARO!
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long
@@ -7,4 +7,5 @@ using namespace std;
 #define endl '\n'
 
 int main(){
+	fastcin;
 }
