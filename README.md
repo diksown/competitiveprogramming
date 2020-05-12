@@ -32,6 +32,8 @@ Some implementations that I like to use in coding competitions.
 - [X] Edmonds-Karp
 - [ ] Lowest Common Ancestor
 ---------------------------
+- [ ] Dinic
+- [ ] Fast Kuhn
 - [ ] Centroid Decomposition
 - [ ] Heavy-Light Decomposition
 - [ ] 2SAT
@@ -40,6 +42,8 @@ Some implementations that I like to use in coding competitions.
 - [X] Z
 - [ ] Trie
 - [ ] Hashing
+------------
+- [ ] KMP
 
 ### Geometry
 - [X] Struct Point
