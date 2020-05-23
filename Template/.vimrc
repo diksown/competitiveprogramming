@@ -1,8 +1,8 @@
 map <F6> :<C-U>!g++ %:r.cpp -o %:r<CR>
 map <F7> :<C-U>!./%:r < input<CR>
-set relativenumber
+set rnu
 set cindent
-set tabstop=4
-set shiftwidth=4
-set showcmd
+set ts=4
+set sw=4
+set sc
 syntax on
