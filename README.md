@@ -13,7 +13,7 @@ Some implementations that I like to use in coding competitions.
 
 ### Data Structures
 - [X] Segment Tree
-- [ ] Fenwick
+- [X] Fenwick
 - [ ] DSU
 - [ ] Sparse Table
 - [ ] Matrix Exponenciation
