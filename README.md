@@ -11,6 +11,9 @@ Some implementations that I like to use in coding competitions.
 - [ ] Discrete Log
 - [ ] FFT
 
+### Math
+hm
+
 ### Data Structures
 - [X] Segment Tree
 - [X] Fenwick
