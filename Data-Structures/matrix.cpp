@@ -1,42 +1,48 @@
 #include <bits/stdc++.h>
-
 using namespace std;
+#define ll long long
+#define pb push_back
+
 
 struct matrix {
-	vector<vector<int>> t;
-	matrix(int n, int m):t(n, vector<int>(m)){}
-
-	struct row_matrix{
-		matrix &m;
-		int i;
-		row_matrix(matrix &m_, int i_):m(m_), i(i_){}
-		int &operator[](int j){
-			return m.t[i][j];
-		}
+	vector<vector<double>> m;
+	matrix(){};
+	matrix(int n){
+		m = vector<vector<double>>(n, vector<double>(n, 0));
 	};
-	row_matrix operator[](int i){
-		return row_matrix(*this, i);
+	matrix operator * (const matrix &a){
+		int n = m.size();
+		matrix ans(n);
+		for (int i=0; i<n; i++){
+			for (int j=0; j<n; j++){
+				for (int k=0; k<n; k++){
+					ans.m[i][j] += m[i][k] * a.m[k][j];
+					//ans.m[i][j] %= mod;
+				}
+			}
+		}
+		return ans;
 	}
-	int &operator()(int i, int j){
-		return t[i][j];
+	matrix operator ^ (const ll &k){
+		matrix ans = (*this);
+		if (k == 1) return ans;
+		ans = (ans ^ (k/2));
+		ans = ans * ans;
+		if (k % 2) ans = ans * (*this);
+		return ans;
 	}
 };
 
 int main(){
-	matrix m(2, 2);
-	m(0, 0) = 1;
-	m(1, 1) = 2;
-
-
-	m[0][1] = 3;
-	matrix::row_matrix r = m[1];
-	r[0] = 4;
-	
-	
-	for (int i : {0, 1}){
-		for (int j : {0, 1})
-			cout << m[i][j] << " ";
-		cout << endl;
-	}
-	return 0;
+	cout << setprecision(8) << fixed;
+	ll n; cin >> n;
+	double p; cin >> p;
+	matrix k;
+	k.m = {
+		{1, 0},
+		{p, 1-2*p}
+	};
+	k = k^n;
+	cout << k.m[1][0]+k.m[1][1] << endl;
 }
+
