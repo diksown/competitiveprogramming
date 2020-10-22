@@ -16,7 +16,7 @@ Some implementations that I like to use in coding competitions.
 - [X] Fenwick
 - [ ] DSU
 - [ ] Sparse Table
-- [ ] Matrix Exponenciation
+- [X] Matrix Exponenciation
 -----------------------
 - [ ] Li Chao Tree
 
