@@ -3,7 +3,7 @@ using namespace std;
 #define ll long long
 #define pb push_back
 
-signed main(){
+int main(){
 	int n; cin >> n;
 	vector<int> dp;
 	for (int i=0; i<n; i++){
